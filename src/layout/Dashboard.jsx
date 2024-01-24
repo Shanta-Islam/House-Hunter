@@ -26,7 +26,7 @@ const Dashboard = () => {
                                         } `}>
                             <NavLink to="/dashboard/userhome" className=' flex items-center gap-2'>
 
-                                <span className={`${!open && "hidden"} origin-left duration-200`}>Dashboard</span></NavLink>
+                                <span className={`${!open && "hidden"} origin-left duration-200`}>Owener Dashboard</span></NavLink>
                         </li>
                         <li>
                             <NavLink to="/dashboard/tasks" className=' flex items-center gap-2'>

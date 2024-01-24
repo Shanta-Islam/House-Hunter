@@ -12,7 +12,7 @@ const Login = () => {
         const password = form.get("password");
         console.log(email, password);
         const user = {email, password}
-        fetch(`http://localhost:5000/login`, {
+        fetch(`https://house-hunter-server-black.vercel.app/login`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

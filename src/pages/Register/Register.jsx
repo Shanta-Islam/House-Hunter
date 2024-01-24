@@ -14,7 +14,7 @@ const Register = () => {
         const email = form.get("email");
         const password = form.get("password");
         const newUser = {name, phone,role, email, password};
-        fetch(`http://localhost:5000/signup`, {
+        fetch(`https://house-hunter-server-black.vercel.app/signup`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
